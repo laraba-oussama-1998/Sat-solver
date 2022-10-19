@@ -1,0 +1,137 @@
+.FontAwesomeIconView{
+   -fx-cursor:hand;
+}
+.button-menu{
+  -fx-font-weight: bold;
+  -fx-background-color:   #363738;
+  -fx-font-size: 21;
+  -fx-text-fill: white;
+  -fx-icon-size:18;
+}
+  .buttoncherche {
+
+  -fx-font-weight: bold;
+  -fx-background-color: #363738;
+  -fx-font-size: 21;
+  -fx-text-fill: white;
+  -fx-border-radius: 2;
+  -fx-icon-size:18;
+  -fx-border-width:2 2 2 2;
+  -fx-border-color:#363738;
+}
+.button-accueil {
+
+  -fx-font-weight: bold;
+  -fx-background-color: #363738;
+  -fx-font-size: 38;
+  -fx-text-fill: white;
+  -fx-icon-size:18;
+  -fx-border-width:2 2 2 2;
+  -fx-border-color:#363738;
+
+}
+
+.button-menu:hover {
+   -fx-font-weight: bold;
+   -fx-background-color: #2c2c2e;
+   -fx-icon-size:26;
+   -fx-border-width:7 ;
+   -fx-border-color:white;
+   -fx-border-width:0 0 0 12;
+
+}
+
+.buttoncherche:hover{
+
+   -fx-border-width:2 2 2 2;
+   -fx-background-color: white;
+   -fx-text-fill:#2c2c2e;
+   -fx-border-color:#2c2c2e;
+
+}
+
+.button-accueil:hover{
+
+   -fx-border-width:4 4 4 4;
+   -fx-background-color: white;
+   -fx-text-fill:#2c2c2e;
+   -fx-font-size: 43;
+   -fx-border-color:#2c2c2e;
+
+}
+
+.button-menu:pressed  {
+   -fx-font-weight: bold;
+   -fx-background-color:  #646469;
+   /*-fx-border-radius: 5;*/
+}
+.buttoncherche:pressed  {
+
+   -fx-border-width:2 2 2 2;
+   -fx-background-color: #646469;
+   -fx-text-fill:white;
+   -fx-border-color:#2c2c2e;
+}
+.button-accueil:pressed  {
+
+   -fx-border-width: 4 4 4 4;
+   -fx-background-color: #2c2c2e;
+   -fx-text-fill:white;
+   -fx-font-size: 35;
+   -fx-border-color:#2c2c2e;
+
+}
+
+.button-table{
+
+    -fx-background-color: transparent;
+    -fx-pref-height: 30;
+    -fx-pref-width: 40;
+    -fx-min-height: 30;
+    -fx-min-width: 30;
+    /*-fx-font-pref-width :40;*/
+    -fx-text-fill:white;
+    -fx-border-width:0;
+    -fx-font-size:23;
+
+}
+.button-table:hover{
+
+    -fx-background-color:transparent ;
+    -fx-pref-height: 30;
+    -fx-pref-width: 40;
+    -fx-min-height: 30;
+    -fx-min-width: 30;
+    /*-fx-font-pref-width :40;*/
+    -fx-border-width:0;
+    -fx-font-size:25;
+}
+.add-condition{
+      -fx-background-color: transparent;
+
+}
+
+.add-condition:hover{
+      -fx-background-color:transparent ;
+     
+
+}
+
+
+#table_Regle .table-column {
+
+  -fx-alignment: CENTER;
+  -fx-font-weight: bold;
+}
+
+#table_Condition .table-column {
+
+  -fx-alignment: CENTER;
+  -fx-font-weight: bold;
+}
+#ChoiceBox{
+
+ -fx-font-weight: bold;
+ -fx-font-size: 17;
+}
+
